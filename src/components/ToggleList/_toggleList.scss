@@ -1,0 +1,20 @@
+nav {
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  button {
+    background-color: rgb(255, 154, 171);
+    cursor: pointer;
+    border: 2px solid rgb(255, 209, 217);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    padding: 1rem;
+    font-size: 20px;
+    &:hover {
+      background-color: rgb(255, 149, 167);
+      border: 2px solid rgb(177, 51, 72);
+    }
+  }
+}

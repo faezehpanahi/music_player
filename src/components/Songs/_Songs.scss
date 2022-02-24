@@ -1,0 +1,23 @@
+// @import url("https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Twinkle+Star&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Twinkle+Star&family=Vujahday+Script&display=swap");
+
+.song_container {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 20%;
+    border-radius: 50%;
+  }
+  h2 {
+    padding: 3rem 1rem 1rem;
+    font-family: "Twinkle Star", cursive;
+  }
+  h3 {
+    font-size: 3rem;
+    font-family: "Vujahday Script", cursive;
+  }
+}

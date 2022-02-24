@@ -4,5 +4,17 @@
   box-sizing: border-box;
 }
 
-@import "./components/Player/Player.scss";
-@import "./components/Songs/Songs.scss";
+.header {
+  color: rgb(223, 4, 95);
+  box-shadow: 2px 2px 50px rgb(102, 32, 61);
+  text-align: center;
+  margin: 2rem auto;
+  width: 300px;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+@import "./components/Player/Player";
+@import "./components/Songs/Songs";
+@import "./components/SongList/SongList";
+@import "./components/ToggleList/toggleList";

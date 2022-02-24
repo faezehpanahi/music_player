@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
+import ContextAPI from "../context/ContextAPI";
 
 const Songs = () => {
+  const context = useContext(ContextAPI);
+
   return (
     <div className="song_container">
-      <h1>Pictiur</h1>
-      <h1>Song name</h1>
-      <h1>Artist</h1>
+      <img src={context.corentSong.coverPict} />
+      <h2>{context.corentSong.musicName}</h2>
+      <h3>{context.corentSong.artist}</h3>
     </div>
   );
 };
