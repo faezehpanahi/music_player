@@ -10,7 +10,7 @@ const DataMusic = () => {
       audioAddress: "https://mp3.chillhop.com/serve.php/?mp3=27500",
       coverPict:
         "https://chillhop.com/wp-content/uploads/2021/11/4c9682ee612a3b8ef51de286c49b5489408e9257-1024x1024.jpg",
-      color: ["FB9B9F", "5F7986"],
+      color: ["#FB9B9F", "#5F7986"],
       active: true,
     },
     {
@@ -20,7 +20,7 @@ const DataMusic = () => {
       audioAddress: "https://mp3.chillhop.com/serve.php/?mp3=27455",
       coverPict:
         "https://chillhop.com/wp-content/uploads/2021/11/3ff29a35be582c8dc0222273cb9c401ea6b209dc-1024x1024.jpg",
-      color: ["97ABC3", "6E4E01"],
+      color: ["#97ABC3", "#6E4E01"],
       active: false,
     },
     {
@@ -30,7 +30,7 @@ const DataMusic = () => {
       audioAddress: "https://mp3.chillhop.com/serve.php/?mp3=24699",
       coverPict:
         "https://chillhop.com/wp-content/uploads/2021/09/dc49d7971512be0192848d072efdaaab91a4c73c-1024x1024.jpg",
-      color: ["1F5C54", "392E4C"],
+      color: ["#1F5C54", "#392E4C"],
       active: false,
     },
     {
@@ -40,7 +40,7 @@ const DataMusic = () => {
       audioAddress: "https://mp3.chillhop.com/serve.php/?mp3=23057",
       coverPict:
         "https://chillhop.com/wp-content/uploads/2021/09/a2d710149876c8e0c9fb097840b2438fbc21bd37-1024x1024.jpg",
-      color: ["FBF69B", "302A2E"],
+      color: ["#FBF69B", "#302A2E"],
       active: false,
     },
     {
@@ -50,7 +50,7 @@ const DataMusic = () => {
       audioAddress: "https://mp3.chillhop.com/serve.php/?mp3=24822",
       coverPict:
         "https://chillhop.com/wp-content/uploads/2021/09/2ce75252f5419a45d76bb93424ac1eae3e688b17-1024x1024.jpg",
-      color: ["043057", "FCBE95"],
+      color: ["#043057", "#FCBE95"],
       active: false,
     },
     {
@@ -60,7 +60,7 @@ const DataMusic = () => {
       audioAddress: "https://mp3.chillhop.com/serve.php/?mp3=23335",
       coverPict:
         "https://chillhop.com/wp-content/uploads/2021/08/af3ce13ad39d38057f00144f8a7c295877ccfec1-1024x1024.jpg",
-      color: ["569FA8", "0E1448"],
+      color: ["#569FA8", "#0E1448"],
       active: false,
     },
     {
