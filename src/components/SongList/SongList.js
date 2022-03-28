@@ -9,7 +9,7 @@ const SongList = () => {
     <div
       className={`song_list ${context.displayListSong ? "" : "display_list"}`}
     >
-      <h1>List Of Song</h1>
+      <h2>List Of Song</h2>
       <div className="song_list_items">
         {context.songs.map((song) => (
           <SongListItem song={song} />

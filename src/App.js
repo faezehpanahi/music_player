@@ -27,11 +27,13 @@ function App() {
       }}
     >
       <div className="App">
-        <h1 className="header">music player</h1>
-        <ToggleList />
-        <Songs />
-        <Player />
-        <SongList />
+        <h1 className="header">Music Player</h1>
+        <section className="wrapper">
+          <ToggleList />
+          <Songs />
+          <Player />
+          <SongList />
+        </section>
       </div>
     </ContextAPI.Provider>
   );

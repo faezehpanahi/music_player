@@ -12,7 +12,7 @@ const ToggleList = () => {
 
   return (
     <nav>
-      <h1>Waves</h1>
+      <h2>Waves</h2>
       <button onClick={() => showListSong()}>
         Song List
         <FontAwesomeIcon icon={faMusic} />
