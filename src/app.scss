@@ -3,15 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+body {
+  min-height: 100vh;
+  min-width: 500px;
+  background-color: #f7f7f7;
+  margin: 0 0.5rem;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .header {
-  color: rgb(223, 4, 95);
-  box-shadow: 2px 2px 50px rgb(102, 32, 61);
   text-align: center;
-  margin: 2rem auto;
-  width: 300px;
-  border-radius: 10px;
-  padding: 0.5rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+  letter-spacing: 1px;
+  font-size: 40px;
+}
+.wrapper {
+  max-width: 1000px;
 }
 
 @import "./components/Player/Player";

@@ -8,8 +8,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border: 2px solid #be185d;
+  border-top: none;
+  border-bottom: none;
   img {
-    width: 20%;
+    max-width: 20%;
     border-radius: 50%;
   }
   h2 {
@@ -17,7 +20,7 @@
     font-family: "Twinkle Star", cursive;
   }
   h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: "Vujahday Script", cursive;
   }
 }

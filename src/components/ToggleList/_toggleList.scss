@@ -1,20 +1,33 @@
 nav {
   min-height: 10vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  padding: 1rem 2rem;
+  background-color: #be185d;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+
+  h2 {
+    font-size: 30px;
+  }
 
   button {
-    background-color: rgb(255, 154, 171);
+    background-color: #f7f7f7;
     cursor: pointer;
-    border: 2px solid rgb(255, 209, 217);
+    border: 2px solid transparent;
     border-radius: 5px;
     transition: all 0.3s ease;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     font-size: 20px;
     &:hover {
-      background-color: rgb(255, 149, 167);
-      border: 2px solid rgb(177, 51, 72);
+      background-color: #00000050;
+      border: 2px solid #be185d;
+      color: #f7f7f7;
+    }
+
+    svg {
+      margin-left: 10px;
     }
   }
 }

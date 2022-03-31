@@ -4,10 +4,13 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  border: 2px solid #be185d;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
 }
 
 .time_control {
-  width: 50%;
+  width: 100%;
   display: flex;
   // align-items: center;
   input {
@@ -19,6 +22,7 @@
   }
   p {
     padding: 0 1rem;
+    line-height: 1rem;
   }
 }
 
@@ -34,7 +38,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .play_control {
-  width: 50%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
